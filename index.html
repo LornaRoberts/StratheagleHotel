@@ -29,10 +29,24 @@
   </a>
 </div>
     <h1 class="tagline">Welcome to Scotland's Premier Hotel Resort</h1>
-        <img src="https://res.cloudinary.com/dytmcam8b/image/upload/v1583673225/5-stars-transparent-background-1_rhjzgp.png" id="stars" alt="5 stars">
+        <img src="https://res.cloudinary.com/dytmcam8b/image/upload/v1583673225/5-stars-transparent-background-1_rhjzgp.png" class="mx-auto d-block" id="stars" alt="5 stars">
     </div>
       <div id="accommodation">
         <h2 class="subheading">Accommodation</h2> 
+        
+  <div id="carouselExampleSlidesOnly" class="carousel slide mx-auto" data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="d-block w-100" src="https://res.cloudinary.com/dytmcam8b/image/upload/v1583668258/aw-creative-pEaBEqXXk-M-unsplash_vmsek4.jpg">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="https://res.cloudinary.com/dytmcam8b/image/upload/v1583869874/aw-creative-38Llq3HTO3A-unsplash_cdug5k.jpg">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="https://res.cloudinary.com/dytmcam8b/image/upload/v1583869876/aw-creative-b87_egH5mos-unsplash_tiew6v.jpg">
+    </div>
+  </div>
+</div>
         <img src="https://res.cloudinary.com/dytmcam8b/image/upload/v1583668258/aw-creative-pEaBEqXXk-M-unsplash_vmsek4.jpg" alt="hotel bedroom" id="bedroom">
         <p id="rooms1">32 luxurious bedrooms all individually decorated and contain features such a stand alone baths and four poster beds. </p>
         <p id="rooms2">Our luxury bedrooms are all individually designed and comprise of a king size zip and link bed or a double bed, wardrobe, tea and coffee making facilities, hair drier, iron and iron board, desk space and chair, flat screen LCD TV, telephone, dressing gowns, bespoke toiletries, safe, en-suite bathroom or shower room.</p>
@@ -40,12 +54,12 @@
       </div>
       <div id="dining">
         <h2 class="subheading dining3">Dining</div>
-        <img src="https://res.cloudinary.com/dytmcam8b/image/upload/v1583670169/casey-lee-awj7sRviVXo-unsplash_s5uft5.jpg" id="plate" alt="plate of food">
+        <img src="https://res.cloudinary.com/dytmcam8b/image/upload/v1583670169/casey-lee-awj7sRviVXo-unsplash_s5uft5.jpg" id="plate" class="mx-auto d-block" alt="plate of food">
         <p class="dinner1">Opulently designed with a rich royal theme of grandeur with polished silver, beautiful chandeliers and tailcoat waiters offering traditional service at its most welcoming.</p>
         <p class="dinner2">Using the finest Scottish produce and suppliers that serve the Queen’s kitchen, the dining experience is accompanied by an extensive wine list including a fine selection from Bouchard Finlayson in South Africa.</p>
         <div id="facilities">
           <h2 class="subheading">Facilities</div>
-          <img src="https://res.cloudinary.com/dytmcam8b/image/upload/v1583519210/court-cook-qbP8Cj4Xa9o-unsplash_hsxxbv.jpg" id="golfer" alt="golfer">
+          <img src="https://res.cloudinary.com/dytmcam8b/image/upload/v1583519210/court-cook-qbP8Cj4Xa9o-unsplash_hsxxbv.jpg" id="golfer" class="mx-auto d-block" alt="golfer">
           <p class="facilities1">
           <ul>
             <li>18 hole championship golf course</li>
@@ -57,6 +71,79 @@
           <p class="facilities2"></p>
         <div id="contact">
           <h2 class=subheading>Contact</h2>
+          <div class="row">
+            <div class="col-md-2"></div>
+
+        <!--Grid column-->
+        <div class="col-md-8 mb-md-0 mb-5">
+            <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+              <div class="col-md-2"></div>
+                <!--Grid row-->
+                <div class="row">
+
+                    <!--Grid column-->
+                    <div class="col-md-6">
+                        <div class="md-form mb-0">
+                            <input type="text" id="name" name="name" class="form-control">
+                            <label for="name" class="">Your name</label>
+                        </div>
+                    </div>
+                    <!--Grid column-->
+
+                    <!--Grid column-->
+                    <div class="col-md-6">
+                        <div class="md-form mb-0">
+                            <input type="text" id="email" name="email" class="form-control">
+                            <label for="email" class="">Your email</label>
+                        </div>
+                    </div>
+                    <!--Grid column-->
+
+                </div>
+                <!--Grid row-->
+
+                <!--Grid row-->
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="md-form mb-0">
+                            <input type="text" id="subject" name="subject" class="form-control">
+                            <label for="subject" class="">Subject</label>
+                        </div>
+                    </div>
+                </div>
+                <!--Grid row-->
+
+                <!--Grid row-->
+                <div class="row">
+
+                    <!--Grid column-->
+                    <div class="col-md-12">
+
+                        <div class="md-form">
+                            <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
+                            <label for="message">Your message</label>
+                        </div>
+
+                    </div>
+                </div>
+                <!--Grid row-->
+
+            </form>
+
+            <div class="text-center text-md-left button">
+                <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Send</a>
+            </div>
+            <div class="status"></div>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+       
+    </div>
+
+</section>
+<!--Section: Contact v.2-->
+          
           <p id="contact1">Stratheagle Hotel</br>
         By Perth</br>
       PH52 8SA</br>
