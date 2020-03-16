@@ -1,7 +1,13 @@
-
-.row{
-  width: 100%;
+#booking1{
+  display: block;
+  margin-bottom: 20px;
+  width: 100px;
 }
+
+#underneath{
+  height: 20px;
+}
+
 
 body, html{
   margin: 0;
@@ -13,34 +19,50 @@ body, html{
 }
 
 #logo{
-  width:190px;
+  width:150px;
+  margin-top: 10px;
 }
-
+#navbar{
+  display: none;
+}
 #background{
   background-image: url('https://res.cloudinary.com/dytmcam8b/image/upload/v1583520094/tim-meyer-SZ4KZrPIKuQ-unsplash_wlo2bh.jpg');
-  max-height: 100%;
-  max-width: 100%;
+  height: 600px;
+  width: 100%;
    background-repeat: no-repeat;
   background-size: cover;
  
 }
+.carousel-inner{
+  display: none;
+}
 
+#send{
+  
+}
 form {
   display: none;
 }
 
-.button{
-  display: none;
-}
+
 .tagline{
   font-size:2em;
 margin: 20px;
   text-align: center;
-  padding-top: 100px;
-  color: white;
+background-color: rgba(252, 252, 250, 0.5);
+width: 80%;
+  padding: 20px;
+  color: black;
   font-family: 'Caladea', serif;
  }
-
+#myLinks{
+    font-family: 'Caladea', serif;
+  display: inline;
+color: white!important;
+}
+a{
+  color: white;
+}
 .subheading{
     font-family: 'Caladea', serif;
   text-align: center;
@@ -66,6 +88,7 @@ margin: 20px;
   overflow: hidden;
  background-color: #3e7836!important;
   position: relative;
+  height: 60px;
  
 }
 
@@ -119,7 +142,12 @@ margin: 20px;
   background: white no-repeat center fixed;
   color: #2c8240;
 }
-
+.links{
+  margin-right: 40px;
+}
+#myLinks{
+  color: white!important;
+}
 #dining{
   height: 100px;
   width: 100%;
@@ -167,24 +195,31 @@ ul{
 
 #contact{
   background-color: grey;
-  height: 400px;
+  height:500px;
   color: white;
     font-family: 'Source Serif Pro', serif;
-}
-
-#contact1{
-  text-align: center;
-  font-size: 20px;
-}
-
-.row{
-  font-size: 20px;
   text-align: center;
 }
+
+.medium-spacer{
+  text-align: center;
+  font-size: 20px;
+  height: 30px;
+}
+
+#rear{
+  font-size: 20px;
+  text-align: center;
+  color: white;
+}
+
 
 .dining3{
   margin-top: 20px;
 }
+
+
+
 @media (min-width: 576px) { 
   body{
     Overflow-x:hidden;
@@ -207,7 +242,8 @@ ul{
 margin: 20px;
   text-align: center;
   color: black!important;
-  padding-top: 100px;
+  padding-top: 40px;
+  margin-bottom: 40px;
   color: white;
   font-family: 'Caladea', serif;
  }
@@ -278,6 +314,7 @@ margin: 20px;
 #stars{
   width: 70%;
   margin-left: 100px;
+    margin-top: -100px;
 }
 
 .castle{
@@ -358,15 +395,16 @@ ul{
   .medium-spacer{
     height: 50px;
   }
-#contact1{
-  text-align: center;
-}
 
 .dining3{
   margin-top: 300px;
 }
 }
 @media (min-width: 768px) { 
+  .carousel-inner{
+    display: block;
+  }
+  
   #bedroom{
     display:none;
   }
@@ -377,8 +415,15 @@ ul{
   form{
     display: block;
   }
-  .button{
-    display: block;
+  #underneath{
+    height: 20px;
+  }
+  #booking{
+    margin-left: 100px;
+  }
+  #booking1{
+width: 100px;
+    margin-bottom: 20px;
   }
   .slide{
     width: 50%;
@@ -399,10 +444,152 @@ ul{
   #background{
     background-image: url("https://res.cloudinary.com/dytmcam8b/image/upload/v1583959050/glamis-castle-1528107386_ae3uek.jpg");
   }
+  #stars{
+    width: 300px;
+    margin-top: 10px;
+  }
+
+  
 }
   
   
 
-@media (min-width: 992px) { ... }
+@media (min-width: 992px) { 
+  #navbar{
+    display: block;
+    background-color: #3e7836;
+  }
+  #background{
+    height:800px;
+  }
+  
+  #booking{
+    margin-right: -40px;
+    margin-left: 20px;
+  }
+  #booking1{
+    display: none;
+  }
+  
+  #myLinks1{
+    display: inline-block;
+  }
+  #stretchlogo{
+    width: 400px;
+  }
+  
+  #booking1{
+    display: none;
+  }
+  #burger{
+    display: none;
+  }
+ .carousel-inner{
+   height:600px;
+     }
+  #rooms1{
+    margin-top: 200px;
+    margin-left: 40px;
+  }
+  #rooms2{
+    margin-left: 60px;
+  }
+  #dining{
+    margin-top: 500px;
+  }
+  #stars{
+    margin-top: 100px;
+  }
+  .links{
+    color: white!important;
+        font-family: 'Caladea', serif;
+    margin-left: 45px;
+    margin-right: 10px;
 
-@media (min-width: 1200px) { ... }
+  }
+ 
+  }
+
+@media (min-width: 1200px) { 
+  #rooms1{
+    margin-top: 300px;
+  }#dining{
+    margin-top:600px;
+  }.fab{
+    font-size: 30px;
+  }#stretchlogo{
+    width: 500px;
+  }
+  #booking1{
+    display: none;
+  }
+  .tagline{
+    margin-top: 200px;
+  }
+  #background{
+    height: 800px;
+  }
+  p{
+    font-size: 30px;
+  }
+  ul{
+    font-size: 30px;
+  }
+  #contact{
+    height: 1000px;
+  }#stars{
+    margin-top: 50px;
+  }
+}
+
+@media (min-width: 2000px) { 
+  #background{
+    height: 1900px;
+  }
+  #stretchlogo{
+   width: 1000px; 
+  }
+  .links{
+  font-size: 40px;
+    margin-left: 100px;
+}
+  #booking{
+    width: 200px;
+    font-size: 40px;
+    margin-left: 100px;
+  }
+  
+  .tagline{
+    width: 1300px;
+    font-size: 100px;
+    margin-left: 700px;
+  }
+  .subheading{ 
+    font-size: 70px;
+  }
+  #rooms1 {
+    margin-top: 440px;
+  }
+  .subheading{
+    margin: 30px;
+  }
+  .dining3{
+    margin-top:1000px;
+  }
+  #golfer{
+    margin-top: 30px;
+    height: 300px;
+  }
+  #plate{
+    margin-top: 200px;
+    height: 300px;
+  }
+  li{
+    margin-left: 100px;
+    font-size: 50px;
+  }
+  p{
+    font-size: 50px;
+  }
+}
+  

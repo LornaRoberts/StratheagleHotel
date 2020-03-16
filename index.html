@@ -16,20 +16,34 @@
   <body>
     <div class="container-fluid p-0">
       <div id="background">
-         <div class="topnav">
-  <a href="#home" class="active"><img src="https://res.cloudinary.com/dytmcam8b/image/upload/v1583519211/WHITEHOTELOGO_nrztu0.png" id="logo" alt=logo></a>
+        <nav class="navbar  navbar-light" id="navbar">
+  <a class="navbar-brand" href="#"><img src="https://res.cloudinary.com/dytmcam8b/image/upload/v1583519211/WHITEHOTELOGO_nrztu0.png" id="stretchlogo" alt="logo"></a>
+          <div id="myLinks1">
+    <a href="#accommodation" class="links">   Accommodation</a>
+    <a href="#dining" class="links">   Dining</a>
+    <a href="#facilities" class="links">   Facilities</a>
+    <a href="#contact" class="links">   Contact</a>
+            <button class="btn btn-primary" id="booking">Book</button>
+  </div>
+ </nav>
+         <div class="topnav" id="burger">
+ <img src="https://res.cloudinary.com/dytmcam8b/image/upload/v1583519211/WHITEHOTELOGO_nrztu0.png" id="logo" alt=logo>
   <div id="myLinks">
     <a href="#accommodation">Accommodation</a>
     <a href="#dining">Dining</a>
     <a href="#facilities">Facilities</a>
     <a href="#contact">Contact</a>
+    
   </div>
   <a href="javascript:void(0);" class="icon" onclick="myFunction()">
     <i class="fa fa-bars"></i>
   </a>
 </div>
-    <h1 class="tagline">Welcome to Scotland's Premier Hotel Resort</h1>
+    <h1 class="tagline mx-auto">Welcome to Scotland's Premier Hotel Resort</h1>
         <img src="https://res.cloudinary.com/dytmcam8b/image/upload/v1583673225/5-stars-transparent-background-1_rhjzgp.png" class="mx-auto d-block" id="stars" alt="5 stars">
+        <div class="booking1 mx-auto" id="booking1">
+          <button class="btn btn-primary mx-auto" id="booking1">Book</button></div>
+        <div id="underneath"></div>
     </div>
       <div id="accommodation">
         <h2 class="subheading">Accommodation</h2> 
@@ -128,11 +142,12 @@
                 </div>
                 <!--Grid row-->
 
-            </form>
+            
 
-            <div class="text-center text-md-left button">
+            <div class="text-center text-md-left button mx-auto d-block" id="send">
                 <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Send</a>
-            </div>
+           </form> 
+              </div>
             <div class="status"></div>
         </div>
         <!--Grid column-->
@@ -143,7 +158,6 @@
 
 </section>
 <!--Section: Contact v.2-->
-          
           <p id="contact1">Stratheagle Hotel</br>
         By Perth</br>
       PH52 8SA</br>
@@ -154,17 +168,18 @@
   Tel (international): +44 1738 555555</br>
 Email: enquries@stratheagle.co.uk</br>
 <div class="medium-spacer"></div>
-<div class="row">
+<div class="row" id="rear">
   <div class="col-2"></div>
   <div class="col-3"><i class="fab fa-twitter"></i></div>
   <div class="col-3"><i class="fab fa-facebook-f"></i></div>
   <div class="col-3"><i class="fab fa-linkedin-in"></i></div>
   <div class="col-1"></div>
 </div>
-        </p>
-          
-        </div>
-    </div>
+</p>
+
+
+
+</div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
